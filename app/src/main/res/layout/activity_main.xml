@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asus.project1.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:hint="Nama"
+        android:textColor="#333dff" />
+
+    <EditText
+        android:id="@+id/edNpm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:hint="Npm"
+        android:textColor="#333dff" />
+    <EditText
+        android:id="@+id/edFakultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:hint="Fakultas"
+        android:textColor="#333dff" />
+    <EditText
+        android:id="@+id/edJurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:hint="Jurusan"
+        android:textColor="#333dff" />
+    <EditText
+        android:id="@+id/edCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:hint="Cita-Cita"
+        android:textColor="#333dff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me!"
+        android:textSize="22dp"
+        android:textColor="#fff"
+        android:background="#333dff"
+        android:id="@+id/btnKlik"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="10dp"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tvHasilNama"
+        android:textColor="#fff"
+        android:width="@dimen/activity_vertical_margin"
+       android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tvHasilNpm"
+        android:textColor="#fff"
+        android:width="@dimen/activity_vertical_margin"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tvHasilFakultas"
+        android:textColor="#fff"
+        android:width="@dimen/activity_vertical_margin"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tvHasilJurusan"
+        android:textColor="#fff"
+        android:width="@dimen/activity_vertical_margin"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tvHasilCita"
+        android:textColor="#fff"
+        android:width="@dimen/activity_vertical_margin"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        />
+
+
+</LinearLayout>
